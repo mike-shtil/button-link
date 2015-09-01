@@ -11,10 +11,10 @@ defined('_JEXEC') or die;
 ?>
 
 <a href="<?php echo JRoute::_( 'index.php?Itemid='. $menu_link ); ?>">
-<div class="bl-container <?php echo $moduleclass_sfx ?>" <?php if ($params->get('backgroundimage')) : ?> style="background-image:url(<?php echo $params->get('backgroundimage');?>)"<?php endif;?> >		
-	<?php echo '<img class="bl-mainimg" src=', $params->get("second_img"), '>','<div class="bl-content">',$module->content,'</div>';?>
-</div>
-
-
-
+	<div class="bl-container <?php echo $moduleclass_sfx ?>"<?php if ($params->get('backgroundimage')) : ?> style="background-image:url(<?php echo $params->get('backgroundimage');?>)"<?php endif;?> >
+		<img class="bl-mainimg" src="<?php echo $params->get("second_img"); ?>">
+		<div class="bl-content">
+			<?php echo $module->content; ?>
+		</div> <!-- /.bl-content -->
+	</div> <!-- /.bl-container -->
 </a>
