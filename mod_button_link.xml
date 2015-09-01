@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>sergey@tpirsum.co.il</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<version>1.1</version>
+	<version>1.2</version>
 	<description>Button links</description>
 
 	<customContent />
@@ -15,6 +15,7 @@
 	<files>
 		<filename module="mod_button_link">mod_button_link.php</filename>
 		<filename module="mod_button_link">mod_button_link.xml</filename>
+		<filename module="mod_button_link">index.html</filename>
 		<folder>tmpl</folder>
 	</files>
 	<languages>
